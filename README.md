@@ -4,6 +4,9 @@ Reconhecimento_facial_opencv
 
 Sistema de reconhecimento de faces desenvolvido para a aula sistemas a faculdade.
 
+Treinamento de imagem feito com a biblioteca de imagens 
+[Yale Face](http://vision.ucsd.edu/content/yale-face-database) 
+
 GitClone
 		
 Vá até o diretório onde deseja clonar os arquivos e abra com  terminal (linux) e cole o seguinte comando:
