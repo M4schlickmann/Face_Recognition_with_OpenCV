@@ -10,7 +10,7 @@ GitClone
 		
 Vá até o diretório onde deseja clonar os arquivos e abra com  terminal (linux) e cole o seguinte comando:
 
-   git clone https://github.com/M4schlickmann/Face_Recognition_with_OpenCV.git
+   	git clone https://github.com/M4schlickmann/Face_Recognition_with_OpenCV.git
 
 
 Requisitos:
