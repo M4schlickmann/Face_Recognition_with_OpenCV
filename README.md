@@ -32,6 +32,9 @@ pip:
 
 	   sudo pip install --upgrade virtualenv
 
+	   sudo pip install --upgrade virtualenv
+	   sudo pip install --upgrade virtualenv
+
 Opencv:
   
   	Instalando:
@@ -39,6 +42,18 @@ Opencv:
            ip install opencv-contrib-python
 
            pip install opencv-contrib-python-headless 
+        
+[Python3 Docs](https://docs.python.org/3/):
+
+
+[Open_CV_Docs](https://docs.opencv.org/)
+
+
+        
+[Python3 Docs](https://docs.python.org/3/):
+
+
+[Open_CV_Docs](https://docs.opencv.org/)
         
 [Python3 Docs](https://docs.python.org/3/):
 
