@@ -7,13 +7,15 @@ largura, altura = 220, 220
 font = cv2.FONT_HERSHEY_COMPLEX_SMALL
 camera =cv2.VideoCapture(1)
 
-
+##Gray scale##
 while(True):
+    
     conectado, imagem = camera.read()
     imagemCinza = cv2.cvtColor(imagem, cv2.COLOR_BGR2GRAY)
     facesDetectadas = detectorFace.detectMultiScale(imagemCinza, scaleFactor=1.5, minSize=(50, 50))
 
     for (x, y, l, a) in facesDetectadas:
+        #Possivel ligacao com DB##
         imagemFace = cv2.resize(imagemCinza[y:y + a, x:x + l], (largura, altura))
         cv2.rectangle(imagem, (x, y), (x + l, y + a), (255, 0, 255), 2)
         id, confianca = reconhecedor.predict(imagemFace)
