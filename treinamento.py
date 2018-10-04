@@ -2,10 +2,12 @@ import cv2
 import os
 import numpy as np
 
+##precisao do treinamento com mos filtros#
 eigenface = cv2.face.EigenFaceRecognizer_create(num_components=50, threshold=1)
-fisherface = cv2.face.FisherFaceRecognizer_create(num_components=4, threshold=3500)
+fisherface = cv2.face.FisherFaceRecognizer_create(num_components=4, threshold=2700)
 lbph = cv2.face.LBPHFaceRecognizer_create()
 
+#run in img files#
 def getImagemComId():
     caminhos = [os.path.join('fotos', f) for f in os.listdir('fotos')]
     #print(caminhos)
