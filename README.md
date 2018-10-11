@@ -1,30 +1,33 @@
-[Face_Recigntion](https://github.com/M4schlickmann/Face_Recognition_with_OpenCV) 
+# [Face_Recigntion](https://github.com/M4schlickmann/Face_Recognition_with_OpenCV) 
 
 
-Sistema de reconhecimento de faces desenvolvido para a aula sistemas a faculdade.
+## Sistema de reconhecimento de faces desenvolvido para a aula sistemas a faculdade.
 
-Treinamento de imagem feito com a biblioteca de imagens 
-[Yale Face](http://vision.ucsd.edu/content/yale-face-database) 
+## Treinamento de imagem feito com a biblioteca de imagens 
+	
+	[Yale Face](http://vision.ucsd.edu/content/yale-face-database) 
 
-GitClone
+#### GitClone
 		
-Vá até o diretório onde deseja clonar os arquivos e abra com  terminal (linux) e cole o seguinte comando:
+#### Vá até o diretório onde deseja clonar os arquivos e abra com  terminal (linux) e cole o seguinte comando:
 
    	git clone https://github.com/M4schlickmann/Face_Recognition_with_OpenCV.git
 
 
-Requisitos:
+#### Requisitos:
 	
-python3:
-	Instalando:
+
+
+### python3: Instalando
 		
 	   sudo add-apt-repository ppa:deadsnakes/ppa
 
    	   sudo apt-get update
 
 	   sudo apt-get install python3.6
-pip: 
-	Instalando:	
+
+
+### pip: Instalando	
 		
 	   sudo apt-get install python-pip python-dev build-essential 
 
@@ -35,9 +38,7 @@ pip:
 	   sudo pip install --upgrade virtualenv
 	   sudo pip install --upgrade virtualenv
 
-Opencv:
-  
-  	Instalando:
+### Opencv: Instalando
         
            ip install opencv-contrib-python
 
