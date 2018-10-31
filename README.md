@@ -1,7 +1,7 @@
 # [Face_Recigntion](https://github.com/M4schlickmann/Face_Recognition_with_OpenCV) 
 
 
-## Sistema de reconhecimento de faces desenvolvido para a aula sistemas a faculdade.
+## Sistema de reconhecimento de faces desenvolvido para a aula de sistemas 
 
 ## Treinamento de imagem feito com a biblioteca de imagens 
 	
