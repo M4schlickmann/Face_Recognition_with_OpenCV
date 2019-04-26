@@ -7,7 +7,7 @@ eigenface = cv2.face.EigenFaceRecognizer_create(num_components=50, threshold=1)
 fisherface = cv2.face.FisherFaceRecognizer_create(num_components=4, threshold=2700)
 lbph = cv2.face.LBPHFaceRecognizer_create()
 
-#run in img files#
+#percorre todo o caminho da aplicação para fazer o reconecimento das imagens#
 def getImagemComId():
     caminhos = [os.path.join('fotos', f) for f in os.listdir('fotos')]
     #print(caminhos)
@@ -24,12 +24,14 @@ def getImagemComId():
     return np.array(ids), faces
 
 ids, faces = getImagemComId()
-#print(faces)
+#armazena todas as faces com id's únicas
 
+#processo de treinamenro para reconhecimento das faces
 print('Treinando')
 eigenface.train(faces, ids)
 eigenface.write('classificadorEigen.yml')
 
+#utilização do filtro fisherface como padrão
 fisherface.train(faces, ids)
 fisherface.write('classificadorFisher.yml')
 
